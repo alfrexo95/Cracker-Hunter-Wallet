@@ -1,3 +1,3 @@
-# 🕍️‍♂️ Cracker Hunter Wallet
+#🧰 Cracker Hunter Wallet
 
-![Python Version](https://img.
+![Python Version 3.8.8
