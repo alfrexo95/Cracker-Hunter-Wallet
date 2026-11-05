@@ -394,4 +394,4 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"\n{RED}[!] Critical system error: {e}{ENDC}")
     finally:
-        print(f"\n{YELLOW}⚠️ DISCLAIMER: This software is strictly for educational and use for.down you risk.{ENDC}")
+        print(f"\n{YELLOW}⚠️ DISCLAIMER: This software is strictly for educational and use for down you risk.{ENDC}")
