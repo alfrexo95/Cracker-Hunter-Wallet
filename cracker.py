@@ -8,7 +8,7 @@ import re
 # --- CONFIGURATION ---
 MIN_BALANCE = 150000.00
 SERVICE_PRICE = 500.00
-PROMO = "🤔 Powered by Cuban Freedom Tech. Discover more AI services at https://github.com/alfrexo95"
+PROMO = " Powered by Cuban Freedom Tech. Discover more AI services at https://github.com/alfrexo95"
 
 # --- API KEYS ---
 ETHERSCAN_API_KEY = "CK6XUSXU96CKDU4MMWI8C5SNSYG9WEVIT9"
