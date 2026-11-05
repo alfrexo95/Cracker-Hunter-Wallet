@@ -1,3 +1,29 @@
 #🧰 Cracker Hunter Wallet
 
 ![Python Version 3.8.8
+
+# 🕵️‍♂️ Cracker Hunter Wallet
+
+![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+
+**Cracker Hunter Wallet** is an advanced CLI tool designed for cryptographic research, BIP-39 seed phrase generation, and automated on-chain verification. It operates through a sophisticated payment gateway that gates access to generated data until a transaction is fully confirmed on the blockchain.
+
+## 🚀 Key Features
+
+*   **Immersive CLI:** High-performance terminal interface with typewriter effects and technical logging.
+*   **BIP-39 Generation:** Securely downloads and generates 12-word seed phrases from the official Bitcoin repository.
+*   **Automated On-Chain Verification:**
+    *   **Ethereum / Base:** USDC and ETH transaction validation via Etherscan API V2.
+    *   **Solana:** Transaction and SPL token balance validation via GetBlock RPC.
+    *   **Bitcoin:** TXID and Bech32 address reception validation via GetBlock.
+*   **Integrated Payment Gateway:** The system locks the generated seed phrase and wallet data until a $500 USD payment is validated to the configured addresses.
+*   **Real-Time Pricing:** Integrates CoinGecko API to fetch current ETH, SOL, and BTC prices during verification.
+
+## 🛠️ Installation & Usage (Termux / Linux)
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/alfrexo95/Cracker-Hunter-Wallet.git
+   cd Cracker-Hunter-Wallet
